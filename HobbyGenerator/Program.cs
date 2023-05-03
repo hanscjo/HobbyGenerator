@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Text;
+
 namespace HobbyGenerator
 {
     internal class Program
@@ -8,7 +10,7 @@ namespace HobbyGenerator
         static string text = "initialize";
         static void Main(string[] args)
         {
-
+            Console.OutputEncoding = Encoding.UTF8;
             while (true)
             {   
                 Console.WriteLine("Skriv inn et navn...");
